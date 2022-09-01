@@ -41,6 +41,7 @@ body {
 
 
 .main-menu {
+    max-width: 100%;
     .menu {
         margin-bottom: 14px;
         .path-logo {
@@ -161,32 +162,35 @@ body {
    
     }
 
-}
-.testimoni {
-    background: linear-gradient(180deg, #F3F5F7 0%, #FFFFFF 100%);
-    width: 100%;
-    .testimoni-box {
-        height: 292px;
-        background-color: white;
-        padding: 32px 36px;
-        width: 382px;
-        @include border-radius-semi-medium;
-        img {
-            width: 50px;
-            margin-bottom: 15px;
+    .testimoni {
+        background: linear-gradient(180deg, #F3F5F7 0%, #FFFFFF 100%);
+        width: 100%;
+        .testimoni-box {
+            width: 382px;
+            height: 292px;
+            background-color: white;
+            padding: 32px 36px;
+            @include border-radius-semi-medium;
+            img {
+                width: 50px;
+                margin-bottom: 15px;
+            }
+            p {
+                margin: 0;
+                font-style: italic;
+                @include font-semi-medium;
+            }
+            .avatar {
+                width: 42px;
+            }
         }
-        p {
-            margin: 0;
-            font-style: italic;
-            @include font-semi-medium;
-        }
-        .avatar {
-            width: 42px;
-        }
+    }
+    .semi-footer {
+        padding: 60px 112px;
     }
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width:800px) {
     .space {
         padding: 10px 17px !important;
     }
@@ -347,5 +351,31 @@ body {
                 }
             }
         }
+    }
+    .testimoni {       max-width: 327px !important;
+        
+        justify-content: start !important;}
+    .testimoni-box {
+        width: 324px !important;
+        height: 246px !important;
+        background-color: white;
+        padding: 27px 30px !important;
+        @include border-radius-semi-medium;
+        img {
+            width: 12px !important;
+            margin-bottom: 15px;
+        }
+        p {
+            margin: 0;
+            font-style: italic;
+            @include font-small ;
+        }
+        .avatar {
+            width: 35px !important;
+        }
+    }
+    .semi-footer {
+        margin-top: 90px;
+        padding: 10px !important;
     }
   }

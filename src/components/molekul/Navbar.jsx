@@ -3,7 +3,7 @@ import Inputs from "../atoms/Inputs";
 
 const Navbar = () => {
   return (
-    <div className="navbar p-0 flex flex-row bg-brandColor justify-center">
+    <div className="navbar flex-1 p-0 flex flex-row bg-brandColor justify-center">
       <div className="space flex flex-wrap items-center flex-row  py-[5px] sm:justify-center space">
         <img
           src={require("../../assets/MainLogo.png")}
