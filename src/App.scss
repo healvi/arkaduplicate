@@ -9,6 +9,13 @@ body {
     width: 1220px;
    
 }
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-top: 60px;
+}
     .main-logo {
         height: 25px;
     }
@@ -196,7 +203,7 @@ body {
     }
     .container-xl {
         max-width: 327px !important;
-        
+        height: fit-content;
         justify-content: start !important;
     }
 

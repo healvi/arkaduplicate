@@ -4,7 +4,7 @@ import Footer from "./components/molekul/Footer";
 
 function App() {
   return (
-    <div className="App flex flex-col">
+    <div className="App flex flex-col relative">
       <Navbar />
       <div className="main-menu m-1 flex flex-col  my-[14px] items-center sm:justify-start sm:py-[5px]">
         {/* Main -Menu */}
@@ -370,7 +370,7 @@ function App() {
           {/* semi footer */}
           <div className="semi-footer grid grid-cols-4 gap-4 justify-start sm:grid-cols-1 md:justify-center sm:justify-start">
             <div>
-              <ul class="list-none">
+              <ul className="list-none">
                 <li className="mb-[15px] font-bold">Kategory Populer</li>
                 <li className="mb-2">Keuangan</li>
                 <li className="mb-2">Perpajakan</li>
@@ -381,7 +381,7 @@ function App() {
               </ul>
             </div>
             <div>
-              <ul class="list-none">
+              <ul className="list-none">
                 <li className="mb-[15px] font-bold">Kategory Populer</li>
                 <li className="mb-2">Panduan</li>
                 <li className="mb-2">FAQ</li>
@@ -491,7 +491,7 @@ function App() {
           </div>
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
