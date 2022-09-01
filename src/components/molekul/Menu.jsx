@@ -2,7 +2,7 @@ import React from "react";
 
 const Menu = () => {
   return (
-    <div className="menu flex-1 flex flex-row md:items-center container-xl justify-center">
+    <div className="menu flex-1 flex flex-row md:items-center  md:justify-center ">
       <div className="basis-180 w-full font-bold flex flex-row items-center sm:basis-130">
         Kategori
         <img

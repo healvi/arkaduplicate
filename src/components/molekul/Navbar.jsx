@@ -4,7 +4,7 @@ import Inputs from "../atoms/Inputs";
 const Navbar = () => {
   return (
     <div className="navbar p-0 flex flex-row bg-brandColor justify-center">
-      <div className="container-xl space flex flex-wrap items-center flex-row  py-[5px] sm:justify-start space">
+      <div className="space flex flex-wrap items-center flex-row  py-[5px] sm:justify-center space">
         <img
           src={require("../../assets/MainLogo.png")}
           className="main-logo mr-[40px] sm:order-1"

@@ -10,9 +10,10 @@ module.exports = {
         blueColor: '#005BAF',
         SeblueColor: '#1E95DD',
         greenColor: '#08A524',
-        redColor: '#F7DE06',
-        yellowColor: '#FF8017',
-        orangeColor: '#F63C52',
+        yellowColor: '#F7DE06',
+        orangeColor: '#FF8017',
+        redColor: '#F63C52',
+        secondary: '#5A5C60',
       },
       padding: {
         '5px': '5px',
@@ -70,7 +71,8 @@ module.exports = {
       '180': '180px',
       '130': '130px',
       '1/9': '12.2%',
-      '1/2' : '50%'
+      '1/2' : '50%',
+      '1/3' : '33,33%',
     }
   },
   plugins: [],

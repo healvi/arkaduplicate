@@ -3,9 +3,11 @@ $MainBrandColor :#0977BE;
 $MainBlueColor :#005BAF;
 $MainSeblueColor: '#1E95DD';
 $MainGreenColor :#08A524;
-$MainRedColor :#F7DE06;
-$MainYellowColor :#FF8017;
-$MainOrangeColor :#F63C52;
+$MainYellowColor :#F7DE06;
+$MainOrangeColor :#FF8017;
+$MainRedColor :#F63C52;
+$MainSecondayColor : #5A5C60;
+
 
 @mixin font-weight-light {
     font-weight: 500;
@@ -16,7 +18,7 @@ $MainOrangeColor :#F63C52;
 }
 
 @mixin font-weight-upnormal {
-    font-weight: 700;
+    font-weight: 800;
 }
 
 @mixin font-big-large {
@@ -29,7 +31,7 @@ $MainOrangeColor :#F63C52;
     font-size: 20px;
 }
 @mixin font-medium {
-    font-size: 16px;
+    font-size: 15px;
 }
 @mixin font-semi-medium {
     font-size: 13.5px;
@@ -43,11 +45,11 @@ $MainOrangeColor :#F63C52;
 
 
 @mixin border-radius-large {
-    font-size: 20px;
+    border-radius: 20px;
 }
 @mixin border-radius-medium {
-    font-size: 16px;
+    border-radius: 16px;
 }
 @mixin border-radius-small {
-    font-size: 12px;
+    border-radius: 12px;
 }

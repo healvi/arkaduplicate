@@ -7,7 +7,7 @@ body {
 
 .container-xl {
     width: 1220px;
-    height: 53px;
+   
 }
     .main-logo {
         height: 25px;
@@ -54,6 +54,75 @@ body {
 
         }
     }
+    .slider-kiri {
+        top: 50%;
+        left: 0;
+        margin-left: -30px;
+    }
+    .slider-kanan {
+        top: 50%;
+        right: 0;
+        margin-right: -30px;
+    }
+    .sub-banner {
+        img[alt=subbanner] {
+            height: 109px;
+        }
+    }
+    .title-section {
+        @include font-very-large;
+        @include font-weight-upnormal;
+        img {
+            width: 32px;
+        }
+    }
+    .countdown {
+        @include font-weight-light;
+        @include font-medium;
+        img {
+            width: 14px;
+        }
+        .time {
+            @include border-radius-small;
+            padding: 6.5px 9px;
+            letter-spacing: 6px;
+        }
+    }
+    .card {
+        max-width: 230px;
+        height: 262px;
+        p {
+            margin: 0;
+        }
+        img {
+            height: 98px;
+        }
+        .academi-text {
+            font-size: 10px;
+            margin-bottom: 6px;
+        }
+        .title-card {
+            margin-bottom: 10px;
+        }
+        .rating {
+            @include font-very-small;
+            margin-bottom: 14px;
+            img {
+               width: 10px;
+               height: 10px;
+           } 
+           span {
+               line-height: 10px;
+            }
+        }
+        .diskon {
+            margin-bottom: 8.5px;
+            .nominal {
+                @include font-very-small;
+                text-decoration: line-through;
+            }
+        }
+    }
 }
 
 @media only screen and (max-width: 1000px) {
@@ -61,8 +130,10 @@ body {
         padding: 10px 17px !important;
     }
     .container-xl {
-        height: 92px;
+        max-width: 327px !important;
+        
         justify-content: start !important;
+    }
 
         .main-logo {
             height: 25px;
@@ -104,7 +175,6 @@ body {
             @include font-very-small;
             padding: 0;
         }
-    }
     
     .main-menu {
         height: 43px;
@@ -121,6 +191,34 @@ body {
                 @include font-semi-medium;
                 @include font-weight-light;
     
+            }
+        }
+        .main-banner {
+            height: 255px;
+        }
+        .slider-kiri {
+            top: 50%;
+            left: 0;
+            margin-left: -10px;
+            width: 32px;
+        }
+        .slider-kanan {
+            top: 50%;
+            right: 0;
+            margin-right: -10px;
+            width: 32px !important;
+      
+        }
+        .sub-banner {
+            img[alt=subbanner] {
+                height: 109px;
+            }
+
+        }
+        .card {
+            .card-body {
+                width: 231px;
+
             }
         }
     }
