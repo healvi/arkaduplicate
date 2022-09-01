@@ -14,6 +14,7 @@ module.exports = {
         orangeColor: '#FF8017',
         redColor: '#F63C52',
         secondary: '#5A5C60',
+        transparent: '#C0C2C6',
       },
       padding: {
         '5px': '5px',
@@ -36,13 +37,7 @@ module.exports = {
     'sm': {'max': '639px'},
     // => @media (max-width: 639px) { ... }
   },
-    container : {
-      sm : "640px",
-      md : "768px",	
-      lg : "1024px",
-      xl : "1220px",
-      '2xl' : "1536px"	
-    },
+    
     borderRadius: {
       'none': '0',
       'sm': '0.125rem',

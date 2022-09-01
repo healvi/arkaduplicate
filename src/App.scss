@@ -69,12 +69,36 @@ body {
             height: 109px;
         }
     }
+    .kategory-popular {
+        span {
+            @include font-large;
+        }
+        button {
+            max-width: 184px;
+            padding: 10px 18px;
+            background-color: white;
+            border: 1px solid $MainSeblueColor;
+            @include border-radius-very-small;
+            @include font-weight-normal;
+            @include font-small;
+            color: $MainSeblueColor
+        }
+    }
     .title-section {
         @include font-very-large;
         @include font-weight-upnormal;
         img {
             width: 32px;
         }
+        .lookup {
+            @include font-medium;
+
+        }
+    }
+    .content-populer {
+        max-width: 389px;
+        height: 200px;
+        @include border-radius-small;
     }
     .countdown {
         @include font-weight-light;
@@ -121,6 +145,43 @@ body {
                 @include font-very-small;
                 text-decoration: line-through;
             }
+        }
+       
+    }
+    .card-mini {
+        max-width: 161px;
+        height: 142px;
+        img {
+            width: 51px;
+            height: 51px;
+        }
+        h6 {
+            @include font-very-small
+        }
+   
+    }
+
+}
+.testimoni {
+    background: linear-gradient(180deg, #F3F5F7 0%, #FFFFFF 100%);
+    width: 100%;
+    .testimoni-box {
+        height: 292px;
+        background-color: white;
+        padding: 32px 36px;
+        width: 382px;
+        @include border-radius-semi-medium;
+        img {
+            width: 50px;
+            margin-bottom: 15px;
+        }
+        p {
+            margin: 0;
+            font-style: italic;
+            @include font-semi-medium;
+        }
+        .avatar {
+            width: 42px;
         }
     }
 }
@@ -240,6 +301,50 @@ body {
                 padding: 4px;
                 
                 letter-spacing: 6px;
+            }
+        }
+        .card-mini {
+            width: 100% !important;
+            max-width: 100%;
+            height: 65px;
+            img {
+                width: 42px;
+                height: 42px;
+            }
+            h6 {
+                @include font-small
+            }
+        }
+        .content-populer {
+            width: 283px;
+            height: 145px;
+            @include border-radius-mid-small;
+            div {
+                width: 283px;
+            height: 145px;
+            }
+        }
+        .lembaga {
+            .card-mini {
+                width: 102px!important;
+                height: 89px;
+                justify-content: center !important;
+
+                img {
+                    width: 37px;
+                    height: 37px;
+                }
+                h6 {
+                    @include font-mini
+                }
+            }
+            .card-body {
+                flex-direction: column !important;
+                align-items: center;
+                justify-content: center !important;
+                img {
+                    margin:  0 !important;
+                }
             }
         }
     }
