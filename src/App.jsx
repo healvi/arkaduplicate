@@ -91,13 +91,15 @@ function App() {
           </div>
           {/* Flash sale */}
           <div className="flex-1 flex relative flex flex-col mt-[65px]">
-            <div className="title-section flex-1 flex flex-row items-center">
-              <img
-                src={require("./assets/icons/discount.svg").default}
-                className="sm:order-1 mr-[12px]"
-                alt="backone"
-              />
-              <span>Flash Sale</span>
+            <div className="title-section flex-1 flex flex-row items-center sm:flex-col sm:items-start">
+              <div className="flex flex-row items-center">
+                <img
+                  src={require("./assets/icons/discount.svg").default}
+                  className=" mr-[12px]"
+                  alt="backone"
+                />
+                <span>Flash Sale</span>
+              </div>
               <div className="countdown ml-[19px] flex flex-row items-center ">
                 <span className=" text-secondary mr-[10px]">
                   Berakhir Dalam

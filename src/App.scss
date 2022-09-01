@@ -215,10 +215,31 @@ body {
             }
 
         }
+        .title-section {
+            @include font-large;
+            @include font-weight-upnormal;
+            img {
+                width: 32px;
+            }
+        }
         .card {
             .card-body {
                 width: 231px;
 
+            }
+        }
+        .countdown {
+            @include font-weight-light;
+            @include font-small;
+            img {
+                width: 14px;
+            }
+            .time {
+                @include font-very-small;
+                @include border-radius-small;
+                padding: 4px;
+                
+                letter-spacing: 6px;
             }
         }
     }
